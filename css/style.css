@@ -1,0 +1,58 @@
+
+.text-box >:first-child {
+    color: pink;
+}
+#greycol {
+    color: grey;
+}
+.text-box >:nth-child(5n) {
+    color: red;
+}
+.text-box >:nth-child(7n) {
+    color: green;
+}
+.yellow {
+    color: yellow;
+}
+.monday {
+    background-color: yellow;
+}
+.mon-mat:hover {
+    color: white;
+}
+.mon-mat:nth-child(1) {
+    font-size: 30px;
+} 
+.tuesday {
+    background-color: orange;
+}
+.ukr-mova :focus {
+    color: blue;
+}
+.ukr-mova:nth-child(2n) {
+    font-size: 30px;
+}
+.wednesday {
+    background-color: aqua;
+}
+.wed :active {
+    color: brown;
+}
+.wed:nth-child(even) {
+    font-size: 40px;
+}
+.thursday {
+    background-color: pink;
+}
+.thur :visited {
+    color: chartreuse;
+}
+.thur:last-child {
+    font-size: 10px;
+}
+.friday {
+    background-color: green;
+}
+.google-link:nth-child(-n+2) {
+    font-size: 40px;
+}
