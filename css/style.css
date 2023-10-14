@@ -26,7 +26,7 @@
 .tuesday {
     background-color: orange;
 }
-.link-ukr :focus {
+.link-ukr:focus {
     color: blue;
 }
 .link-ukr:nth-child(2n) {
