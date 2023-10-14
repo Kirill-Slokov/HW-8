@@ -5,10 +5,10 @@
 #greycol {
     color: grey;
 }
-.text-box >:nth-child(5n) {
+.text-box >:nth-child(5) {
     color: red;
 }
-.text-box >:nth-child(7n) {
+.text-box >:nth-child(7) {
     color: green;
 }
 .yellow {
@@ -26,28 +26,28 @@
 .tuesday {
     background-color: orange;
 }
-.ukr-mova :focus {
+.link-ukr :focus {
     color: blue;
 }
-.ukr-mova:nth-child(2n) {
+.link-ukr:nth-child(2n) {
     font-size: 30px;
 }
 .wednesday {
     background-color: aqua;
 }
-.wed :active {
+.link-wed:active {
     color: brown;
 }
-.wed:nth-child(even) {
+.link-wed:nth-child(even) {
     font-size: 40px;
 }
 .thursday {
     background-color: pink;
 }
-.thur :visited {
+.link-thur :visited {
     color: chartreuse;
 }
-.thur:last-child {
+.link-thur:last-child {
     font-size: 10px;
 }
 .friday {
@@ -55,4 +55,7 @@
 }
 .google-link:nth-child(-n+2) {
     font-size: 40px;
+}
+:not(.link-thur) {
+
 }
