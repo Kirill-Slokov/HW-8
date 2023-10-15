@@ -44,10 +44,10 @@
 .thursday {
     background-color: pink;
 }
-.link-thur :visited {
+.link-thur:visited {
     color: chartreuse;
 }
-.link-thur:last-child {
+.link-thur :last-child {
     font-size: 40px;
 }
 .friday {
@@ -56,6 +56,6 @@
 .google-link:nth-child(-n+2) {
     font-size: 40px;
 }
-:not(.link-thur) {
-
+.google-link:not(.link-thur) {
+color: blanchedalmond;
 }
